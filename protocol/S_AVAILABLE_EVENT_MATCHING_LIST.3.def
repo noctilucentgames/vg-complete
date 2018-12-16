@@ -27,13 +27,14 @@ int32  dailyProgressCount	# numerator of daily progress frac
 int32  dailyProgressLimit	# denominator of daily progress frac
 
 
-bool   daily3Complete		# *true* after accepting daily3 						# reward (in contrast to daily8
-					# and weekly reward below)
+bool   daily3Complete		# *true* after accepting daily3
+	 						# reward (in contrast to daily8
+							# and weekly reward below)
 
 byte   unk2	# 0
 byte   unk3	# 0
 byte   unk4	# 0
-# probably just padding for daily3complete: int32
+# probably just padding for daily3complete: int32 ??
 
 bool   outOfDailies 	# true if completed 8 dailies
 
